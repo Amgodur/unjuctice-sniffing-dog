@@ -9,7 +9,7 @@ class NewsSite(ABC):
         pass
 
 
-class PravdaNews(NewsSite):
+class EPravdaNews(NewsSite):
     def get_unique_url(self):
         pass
 
